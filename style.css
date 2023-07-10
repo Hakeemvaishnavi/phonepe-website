@@ -1,0 +1,595 @@
+@importhttps://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css
+.body{
+    margin: 0;
+    background-color: white;
+    
+
+}
+
+.container{
+    width: 1200px;
+    margin: auto;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* start of header */
+header{
+    border-bottom: 0.1px solid whitesmoke;
+}
+
+
+.header-logo{
+    width: 150px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+.header-nav{
+    margin-top: 32px;
+    margin-left: 80px;
+}
+.header-nav nav a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.788);
+    padding: 10px 15px;
+    font-size: 18px;
+    
+    
+    
+
+}
+.header-nav nav a:hover{
+    /* background-color: blueviolet; */
+    /* color: white; */
+    transition: 0.5s;
+    color: blueviolet;
+  
+}
+/* start title */
+.title-image{
+    position: relative;
+    height: 700px;
+}
+.title-image img{
+    width: 100%;
+    height: 700px;
+}
+.overlay{
+    position: absolute;
+    background-color: black;
+    opacity: 0.2;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+}
+.image-txt{
+    position: absolute;
+    color: white;
+    z-index: 2;
+    top: 5%;
+    left: 10%;
+    text-align: center;
+}
+.image-txt h1{
+    font-size: 40px;
+}
+.image-txt p{
+    font-size: 20px;
+    margin-bottom: 100px;
+
+}
+
+.image-txt a{
+
+    text-decoration: none;
+    color: white;
+    padding: 20px 40px;
+    background-color: black;
+    border-radius: 10px;
+    font-size: 20px;
+    margin-top: 30px;
+
+}
+.image-txt a:hover{
+    background-color: brown ;
+
+}
+/* demo title of index.html page */
+.demo{
+    position: relative;
+    background-image: linear-gradient(#000, rgba(184, 12, 12, 0.493)),url('/phonepe.jpg');
+    height: 600px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+/* start of features section */
+.features{
+    margin: 60px auto;
+
+
+}
+.features-txt{
+    width: 45%;
+}
+.features-txt h2{
+    margin: 25px auto;
+    color: blueviolet;
+    font-size: 35px;
+
+}
+.features-txt h3{
+    margin: 20px auto;
+    font-size: 25px;
+    
+
+}
+.features-txt p{
+    margin: 20px auto;
+}
+.border{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+.feature-vde{
+    width: 45%;
+    margin: auto;
+}
+/* start of safety section */
+
+.safety{
+    background: linear-gradient(rgba(137, 43, 226, 0.322),rgba(137, 43, 226, 0.123));
+    height: 300px;
+    margin-top: 250px;
+    margin-bottom: 2px;
+}
+.safety-box{
+    position: relative;
+    width: 200%;
+    margin: 0 auto;
+    background-image: url('/trust-bg.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 250px;
+    background-color: rgba(137, 43, 226, 0.863);
+    border-radius: 30px;
+    margin-top: -100px;
+    /* margin-bottom: -150px; */
+
+}
+.safety-box .safety-box-img{
+    position: absolute;
+    width: 30%;
+    top: 10%;
+    left: 8%;
+
+    
+
+
+}
+.safety-box .safety-box-img img{
+    width: 50%;
+    
+    
+
+
+}
+
+ .safety-box .safety-box-txt{
+    width: 70%;
+    position: absolute;
+    color: white;
+    top: 10%;
+    left: 40%;
+    font-size: 20px;
+    
+    
+    
+    
+
+ }
+ .safety-box .safety-box-txt p{
+    font-size: 15px;
+ }
+ .safety-box .safety-box-txt img{
+    width: 15%;
+    margin-left: 20px;
+    
+
+ }
+
+ /* start of stores  */
+
+ .stores{
+    background: linear-gradient(rgba(137, 43, 226, 0.062),rgba(137, 43, 226, 0.123));
+    height: 400px;
+    margin-bottom: 2px;
+    
+    
+
+ }
+ .stores-txt{
+    width: 100%;
+ }
+ .stores-txt p{
+    font-size: 70px;
+    text-align: center;
+    color: rgba(81, 90, 170, 0.986);
+    margin-bottom: 20px;
+    
+     
+ }
+ .stores-txt a{
+    text-decoration: none;
+    color: white;
+    background-color:rgb(13, 226, 241);
+    font-size: 20px;
+    margin-left: 500px;
+    margin-top: 100px;
+    
+    border-radius: 30px;
+    padding: 20px 60px;
+    
+
+ }
+ /* start of myntra */
+ .myntra{
+    
+    background: linear-gradient(rgba(137, 43, 226, 0.062),rgba(137, 43, 226, 0.123));
+    height: 300px;
+    margin-bottom: 30px;
+ }
+ .myntra-image img{
+    width: 100%;
+ }
+
+ /* start of business */
+ .business{
+    
+    margin: 60px auto;
+    width: 100%;
+ }
+ .business-img{
+    width: 45%;
+    height: auto;
+    
+ }
+ .business-img img{
+     width: 100%;
+ }
+ .business-txt{
+    width: 45%;
+    margin-left: 100px;
+
+ }
+.business-txt h1{
+    color: rgba(56, 85, 3, 0.842);
+    font-size: 50px;
+}
+ .business-txt h3{
+    color: black;
+    font-size: 25px;
+ }
+ .business-txt h4{
+    color: blueviolet;
+    font-size: 25px;
+    margin-left: auto;
+    
+ }
+ 
+.border{
+    border: 0.5px solid rgb(82, 79, 79);
+}
+
+/* start of press */
+.press{
+    background: linear-gradient(rgba(137, 43, 226, 0.062),rgba(137, 43, 226, 0.123));
+    height: 220px;
+    
+    margin-bottom: 30px;
+    
+}
+ .press-txt h1{
+    color:  rgb(3, 22, 85);;
+    margin-top: 100px;
+    margin-left: 500px;
+    font-size: 40px;
+
+}
+.press-txt p{
+    text-align: center;
+    margin-left: 500px;
+}
+
+ 
+     
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* start of box */
+
+.box{
+    
+    width: 30%;
+    border: 1px solid  whitesmoke;
+    border-radius: 15px;
+    margin-top: 30px;
+    
+    margin: 30px auto;
+    padding-left: 20px;
+}
+h2{
+    padding-top: 15px;
+    padding-bottom: 30px;
+}
+p{
+    padding-bottom: 30px;
+}
+
+/* start of news */
+.news{
+    margin-bottom: 60px;
+    margin-top: 20px;
+    margin-left: 500px;
+    padding: 20px 40px;
+}
+.news a{
+    color: black;
+    background-color:rgb(13, 226, 241);
+    text-decoration: none;
+    border-radius: 30px;
+    padding: 20px 60px; 
+}
+
+
+
+
+    /* start of building */
+.building{
+    margin-top: 40px;
+    height: 500px;
+    background-color: blueviolet;
+    width: 100%;
+    
+ 
+    
+
+    
+    
+    
+    
+} 
+.building-txt{
+    margin-left: 45px;
+    margin-top: 50px;
+    width: 24%;
+    
+    
+}
+.building-txt h1{
+    
+    font-size: 50px;
+    color: white;
+
+}
+.building-txt1 {
+    margin-top: 50px;
+    width: 24%;
+    
+    
+}
+.building-txt1 h4{
+    font-size: 25px;
+    color: rgb(207, 207, 207);
+    margin-bottom:2px;
+    
+    
+
+}
+.building-txt1 h1{
+    font-size: 50px;
+    color: white;
+    margin-top: 2px;
+    margin-bottom: 1px;
+    
+
+}
+.building-txt1 h3{
+    margin-top: 2px ;
+    color: whitesmoke;
+}
+.building-txt2{
+    margin-top: 50px;
+    width: 24%;
+    
+}
+.building-txt2 h4{
+    font-size: 25px;
+    color: rgb(207, 207, 207);
+    margin-bottom:  2px;
+
+
+}
+.building-txt2 h1{
+    font-size: 50px;
+    color: white;
+    margin-top: 2px;
+    margin-bottom: 1px;
+    
+
+}
+.building-txt2 h3{
+    margin-top: 2px;
+    color: whitesmoke;
+
+}
+.building-txt3{
+    margin-top: 50px;
+    width: 24%;
+    
+    
+}
+
+.building-txt3 h4{
+    font-size: 25px;
+    color: rgb(207, 207, 207);
+    margin-bottom: 2px;
+
+}
+.building-txt3 h1{
+    font-size: 50px;
+    color: white;
+    margin-top: 2px;
+    margin-bottom: 1px;
+    
+    
+
+    
+}
+.building-txt3 h3{
+    margin-top: 2px;
+    color: whitesmoke;
+}
+.building-txt .building-txt1 .building-txt2 .building-txt3{
+    margin: 2px auto;
+}
+
+.building-image{
+    width: 100%;
+}
+.building-image img{
+    width: 100%;
+}
+
+/* start of footer */
+
+.footer-image{
+    width: 150px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+
+}
+.footer-a{
+    
+    text-decoration: none;
+    margin-top: 60px;
+    
+    font-size: 15px;
+    padding-left: 40px;
+    color: black;
+    
+
+}
+.footer-a h4{
+    color:  rgba(12, 9, 9, 0.863);;
+    padding-left: 36px;
+}
+.footer-b{
+    margin-top: 60px;
+    color: black;
+    font-size: 15px;
+    
+    padding-left: 40px;
+}
+.footer-b h4{
+    padding-left: 36px;
+    color: rgba(12, 9, 9, 0.863);
+
+
+}
+.footer-c{
+    margin-top: 60px;
+    color: black;
+    font-size: 15px;
+    padding-left: 40px;
+    margin-right: 1px;
+    
+    
+    
+
+}
+.footer-c h4{
+    padding-left: 36px;
+    color: rgba(12, 9, 9, 0.863);
+    
+
+}
+
+
+
+
+
+.footer-d{
+
+    
+    margin-top: 40px;
+    color: black;
+    font-size: 15px;
+    padding-left: 50px;
+    
+    
+
+
+    
+
+}
+
+
+.footer-d img{
+    width: 100px;
+
+    
+    
+    
+
+    
+    
+
+
+}
+
+.footer-e{
+    margin-top: 40px;
+    color: black;
+    font-size: 15px;
+    padding-left: 55px;
+} 
+.footer-e img{
+    width: 180px;
+    
+
+}
+.footer-e-img img{
+    width: 40px;
+    
+    margin: 40px 10px;
+}
+
+
+
+
+ 
